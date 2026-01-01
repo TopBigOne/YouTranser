@@ -100,6 +100,13 @@ void LoginWindow::openUrl(QString url)
  */
 void LoginWindow::LoginClickListener()
 {
+    // ========== 调试模式：直接跳转主窗口（跳过登录验证） ==========
+    // 取消下面3行注释即可启用调试模式
+    GotoMain();
+    close();
+    return;
+    // ============================================================
+
     // 获取用户输入的邮箱
     QString email = ui->email_line_edit->text();
     if(email == ""){

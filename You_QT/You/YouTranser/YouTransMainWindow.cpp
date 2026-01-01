@@ -286,7 +286,7 @@ void YouTransMainWindow::StartTranscodeClickListener()
 }
 
 /**
- * @brief 开始转码内部实现函数
+ * @brief 开始转码内部实现函数Ï
  * @details
  * - 验证输出路径和任务列表
  * - 实现并发任务控制:根据配置的同时任务数启动转码
